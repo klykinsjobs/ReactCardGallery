@@ -1,0 +1,21 @@
+.card {
+    background: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    overflow: hidden;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+.card-color {
+    height: 120px;
+}
+
+.card-body {
+    padding: 12px;
+}
